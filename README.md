@@ -1,9 +1,6 @@
 <div align="center">
 
-<img src="https://upload.wikimedia.org/wikipedia/commons/c/c5/Fourier_transform_time_and_frequency_domains_%28small%29.gif" width="800" alt="Fourier Transform Analysis"/>
-
-# P Y T H O N _ C Y B E R
-**PHYSIQUE DES TÉLÉCOMMUNICATIONS - [RES403_RT]**
+<img src="https://readme-typing-svg.demolab.com?font=Share+Tech+Mono&weight=600&size=35&pause=1000&color=00FF00&center=true&vCenter=true&width=800&height=80&lines=PYTHON_CYBER;PROJET+RES403_RT;LABORATOIRE+DE+PHYSIQUE;ANALYSE+DES+SIGNAUX" alt="Typing Animation" />
 
 <br>
 
@@ -15,44 +12,46 @@
 ---
 
 > **CLASSIFICATION : WORK IN PROGRESS**
-> Ce projet est actuellement en phase de construction. L'architecture du code évolue quotidiennement. Les modules mathématiques sont en cours de test. Aucune version stable n'est encore disponible.
+> Le développement est actif. L'architecture change régulièrement. Les modules sont en phase de test. La stabilité n'est pas garantie.
 
 ## I. SYNOPSIS
 
-**PYTHON_CYBER** est une infrastructure logicielle expérimentale. 
-Ce projet est développé pour le module **RES403_RT**. 
-Il analyse la couche physique des réseaux de télécommunications. 
-L'approche combine le traitement du signal et la cybersécurité.
+**PYTHON_CYBER** est un laboratoire logiciel. 
+Le projet cible la couche physique des réseaux. 
+Il combine traitement du signal et cybersécurité. 
+Le code est développé pour le module **RES403_RT**.
 
-## II. AXES DE DÉVELOPPEMENT
+## II. MODULES EN CONSTRUCTION
 
-Le code source est en cours de rédaction. Trois modules sont prévus :
+L'architecture repose sur trois noyaux distincts. Le code est en cours d'écriture.
 
-* **Traitement Numérique (DSP) :** Analyse spectrale. Transformées de Fourier (FFT).
-* **Interception RF :** Simulation de brouillage (Jamming). Analyse de bruit thermique.
-* **Cryptographie :** Obfuscation de signaux. Chiffrement appliqué aux ondes.
+* **Noyau DSP (Traitement) :**
+  Analyse spectrale. Modélisation mathématique. Transformées de Fourier.
+* **Noyau RF (Radiofréquence) :**
+  Interception simulée. Bruitage dirigé. Analyse des interférences.
+* **Noyau Crypto (Sécurité) :**
+  Chiffrement des ondes. Obfuscation. Dissimulation de spectres.
 
 ---
 
 <div align="center">
-  <img src="https://upload.wikimedia.org/wikipedia/commons/f/f5/Bpsk_modulation.gif" width="500" alt="BPSK Modulation"/>
-  <br><br>
-  <i>Simulation de modulation de phase (BPSK). Calibrage des algorithmes en cours.</i>
+  <img src="https://readme-typing-svg.demolab.com?font=Share+Tech+Mono&weight=500&size=20&pause=500&color=00FF00&center=true&vCenter=true&width=600&lines=[||||||||||||........]+60%25;COMPILATION+DES+MATRICES...;CALIBRAGE+DES+FILTRES...;EN+ATTENTE+DE+DEPLOIEMENT" alt="Loading Animation" />
 </div>
 
 ---
 
 ## III. ENVIRONNEMENT TECHNIQUE
 
-L'environnement d'exécution requiert une isolation stricte. 
-Le manuel de déploiement sera publié avec la version `v0.1-alpha`.
+Le projet demande une isolation stricte. 
+L'environnement virtuel est obligatoire.
+Les instructions d'installation arriveront avec la version stable.
 
-**Stack scientifique en cours d'intégration :**
-* `NumPy` / `SciPy` : Calcul matriciel et traitement du signal.
-* `Matplotlib` : Modélisation des spectres de fréquences.
-* `Cryptography` : Sécurisation des flux binaires.
+**Stack scientifique prévue :**
+* `NumPy` / `SciPy` : Calcul matriciel.
+* `Matplotlib` : Rendu visuel des signaux.
+* `Cryptography` : Chiffrement bas niveau.
 
 ## IV. DIRECTIVE
 
-**Projet :** RES403_RT
-**Développeurs :** LALLEMENT Arthur, PEDAT Evan
+**Projet :** RES403_RT  
+**Opérateur :** [Ton Nom / Identifiant]
