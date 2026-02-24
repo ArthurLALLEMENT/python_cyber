@@ -55,4 +55,4 @@ Le manuel de déploiement sera publié avec la version `v0.1-alpha`.
 ## IV. DIRECTIVE
 
 **Projet :** RES403_RT
-**Chercheur / Développeur :** [Ton Nom / Identifiant]
+**Développeurs :** LALLEMENT Arthur, PEDAT Evan
