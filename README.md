@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="https://readme-typing-svg.demolab.com?font=Share+Tech+Mono&weight=600&size=35&pause=1000&color=00FF00&center=true&vCenter=true&width=800&height=80&lines=PYTHON_CYBER;PROJET+RES403_RT;PHYSIQUE+DES+TELECOMS;ANALYSE+DES+SIGNAUX" alt="Typing Animation" />
+<img src="https://readme-typing-svg.demolab.com?font=Share+Tech+Mono&weight=600&size=35&pause=1000&color=00FF00&center=true&vCenter=true&width=800&height=80&lines=PYTHON_CYBER;PROJET+RES403_RT;PHYSIQUE+DES+TELECOMS;CALCULS EN COURS" alt="Typing Animation" />
 
 <br>
 
