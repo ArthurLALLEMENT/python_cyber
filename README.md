@@ -3,7 +3,7 @@
 <img src="https://upload.wikimedia.org/wikipedia/commons/c/c5/Fourier_transform_time_and_frequency_domains_%28small%29.gif" width="800" alt="Fourier Transform Analysis"/>
 
 # P Y T H O N _ C Y B E R
-**PHYSIQUE DES TÉLÉCOMMUNICATIONS // [RES403_RT]**
+**PHYSIQUE DES TÉLÉCOMMUNICATIONS - [RES403_RT]**
 
 <br>
 
