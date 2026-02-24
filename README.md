@@ -1,64 +1,58 @@
 <div align="center">
 
-<img src="https://media.giphy.com/media/jKwlS0sAON3l6/giphy.gif" width="100%" height="200" alt="Spectrogram Analysis" style="object-fit: cover; border-radius: 2px; filter: grayscale(100%) contrast(120%);"/>
+<img src="https://upload.wikimedia.org/wikipedia/commons/c/c5/Fourier_transform_time_and_frequency_domains_%28small%29.gif" width="800" alt="Fourier Transform Analysis"/>
 
-# 𝐏 𝐘 𝐓 𝐇 𝐎 𝐍 _ 𝐂 𝐘 𝐁 𝐄 𝐑
-**LABORATOIRE DE PHYSIQUE DES TÉLÉCOMMUNICATIONS ET CRYPTANALYSE // [RES403_RT]**
+# P Y T H O N _ C Y B E R
+**LABORATOIRE DE PHYSIQUE DES TÉLÉCOMMUNICATIONS // [RES403_RT]**
 
 <br>
 
-[![Build](https://img.shields.io/badge/STATUT-EN_COURS_D_ANALYSE-red?style=for-the-badge)](#)
-[![Lab](https://img.shields.io/badge/DOMAINE-RF_SECURITY-black?style=for-the-badge)](#)
-[![Language](https://img.shields.io/badge/CORE-PYTHON_3.10%2B-black?style=for-the-badge)](#)
+[![Statut](https://img.shields.io/badge/STATUT-EN_COURS_DE_DÉVELOPPEMENT-red?style=for-the-badge)](#)
+[![Domaine](https://img.shields.io/badge/DOMAINE-SDR_%26_CRYPTO-black?style=for-the-badge)](#)
 
 </div>
 
 ---
 
 > **CLASSIFICATION : WORK IN PROGRESS**
-> Ce dépôt constitue l'espace de travail principal d'un projet de recherche et développement. Les modèles mathématiques, l'architecture matricielle et les algorithmes de traitement du signal sont soumis à des itérations constantes. L'intégrité fonctionnelle des modules n'est pas garantie à ce stade.
+> Ce projet est actuellement en phase de construction. L'architecture du code évolue quotidiennement. Les modules mathématiques sont en cours de test. Aucune version stable n'est encore disponible.
 
-## I. SYNOPSIS DU LABORATOIRE
+## I. SYNOPSIS
 
-**PYTHON_CYBER** est une infrastructure logicielle expérimentale dédiée à l'analyse, la modélisation et l'exploitation des transmissions électromagnétiques. Développé dans le cadre de la directive **RES403_RT**, ce projet aborde la physique des télécommunications sous un prisme offensif et défensif (Couche 1 / Physical Layer).
+**PYTHON_CYBER** est une infrastructure logicielle expérimentale. 
+Ce projet est développé pour le module **RES403_RT**. 
+Il analyse la couche physique des réseaux de télécommunications. 
+L'approche combine le traitement du signal et la cybersécurité.
 
-L'objectif est d'étudier les ondes porteuses, d'isoler les anomalies spectrales et d'appliquer des protocoles cryptographiques directement sur les signaux bruts pour éprouver la résilience des canaux de communication.
+## II. AXES DE DÉVELOPPEMENT
 
-## II. VECTEURS DE RECHERCHE [W.I.P]
+Le code source est en cours de rédaction. Trois modules sont prévus :
 
-L'architecture algorithmique est actuellement fragmentée en trois unités de calcul :
-
-* **UNITÉ ALPHA : Traitement Numérique du Signal (DSP)**
-    * Isolation des spectres fréquentiels via Transformées de Fourier Rapides (FFT).
-    * Démodulation mathématique et extraction de signaux noyés dans le bruit thermique (AWGN).
-* **UNITÉ BETA : Vulnérabilités & Interception RF**
-    * Simulation de brouillage dirigé (Jamming) et d'interférences de canal.
-    * Interception passive et modélisation d'attaques de type *Man-in-the-Middle* sur la couche physique.
-* **UNITÉ GAMMA : Cryptographie & Obfuscation**
-    * Implémentation de protocoles de chiffrement asymétrique sur les vecteurs d'onde.
-    * Génération de bruit pseudo-aléatoire pour dissimulation de spectres.
+* **Traitement Numérique (DSP) :** Analyse spectrale. Transformées de Fourier (FFT).
+* **Interception RF :** Simulation de brouillage (Jamming). Analyse de bruit thermique.
+* **Cryptographie :** Obfuscation de signaux. Chiffrement appliqué aux ondes.
 
 ---
 
 <div align="center">
-  <img src="https://media.giphy.com/media/VbKWeXEqZAX8UwwyI1/giphy.gif" width="750" alt="Radar Processing" style="border-radius: 2px; filter: grayscale(100%) invert(10%);"/>
+  <img src="https://upload.wikimedia.org/wikipedia/commons/f/f5/Bpsk_modulation.gif" width="500" alt="BPSK Modulation"/>
   <br><br>
-  <i>[ Terminal tty1 ] — Compilation des matrices d'ondes et étalonnage des filtres en cours.</i>
+  <i>Simulation de modulation de phase (BPSK). Calibrage des algorithmes en cours.</i>
 </div>
 
 ---
 
-## III. PROTOCOLE DE DÉPLOIEMENT
+## III. ENVIRONNEMENT TECHNIQUE
 
-L'environnement de simulation requiert une isolation stricte pour garantir la précision des calculs en virgule flottante. Le protocole d'initialisation complet sera déverrouillé lors du passage en version `v0.1-stable`.
+L'environnement d'exécution requiert une isolation stricte. 
+Le manuel de déploiement sera publié avec la version `v0.1-alpha`.
 
-```bash
-# [!] Séquence d'amorçage de l'environnement virtuel
-$git clone [https://github.com/UTILISATEUR/python_cyber.git$](https://github.com/UTILISATEUR/python_cyber.git$) cd python_cyber
-$python3 -m venv .lab_env$ source .lab_env/bin/activate
+**Stack scientifique en cours d'intégration :**
+* `NumPy` / `SciPy` : Calcul matriciel et traitement du signal.
+* `Matplotlib` : Modélisation des spectres de fréquences.
+* `Cryptography` : Sécurisation des flux binaires.
 
-# Installation des modules scientifiques
-$ pip install -r config/requirements.txt
+## IV. DIRECTIVE
 
-# Lancement du moteur de traitement (Simulation Mode)
-$ python core/analyzer.py --verbose --target=rf_spectrum
+**Projet :** RES403_RT
+**Chercheur / Développeur :** [Ton Nom / Identifiant]
