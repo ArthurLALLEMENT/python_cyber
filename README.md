@@ -1,59 +1,64 @@
 <div align="center">
 
-<img src="https://media.giphy.com/media/3o7TKSjRrfIPjeiVyM/giphy.gif" width="100%" height="150" alt="Signal Waveform Animation" style="object-fit: cover; border-radius: 5px;"/>
+<img src="https://media.giphy.com/media/jKwlS0sAON3l6/giphy.gif" width="100%" height="200" alt="Spectrogram Analysis" style="object-fit: cover; border-radius: 2px; filter: grayscale(100%) contrast(120%);"/>
 
-# P Y T H O N _ C Y B E R
-
-**DÉPARTEMENT RÉSEAUX ET TÉLÉCOMMUNICATIONS — [RES403_RT]**
+# 𝐏 𝐘 𝐓 𝐇 𝐎 𝐍 _ 𝐂 𝐘 𝐁 𝐄 𝐑
+**LABORATOIRE DE PHYSIQUE DES TÉLÉCOMMUNICATIONS ET CRYPTANALYSE // [RES403_RT]**
 
 <br>
 
-[![Status](https://img.shields.io/badge/STATUS-EN_COURS_DE_DÉVELOPPEMENT-black?style=for-the-badge)](#)
-[![Python](https://img.shields.io/badge/PYTHON-3.10%2B-black?style=for-the-badge&logo=python&logoColor=white)](#)
-[![Domaine](https://img.shields.io/badge/DOMAINE-PHYSIQUE_DES_TÉLÉCOMS-black?style=for-the-badge)](#)
-[![Securite](https://img.shields.io/badge/SÉCURITÉ-CYBER_PHYSIQUE-black?style=for-the-badge)](#)
+[![Build](https://img.shields.io/badge/STATUT-EN_COURS_D_ANALYSE-red?style=for-the-badge)](#)
+[![Lab](https://img.shields.io/badge/DOMAINE-RF_SECURITY-black?style=for-the-badge)](#)
+[![Language](https://img.shields.io/badge/CORE-PYTHON_3.10%2B-black?style=for-the-badge)](#)
 
 </div>
 
 ---
 
-> **Avertissement :** L'accès à ce dépôt révèle l'architecture d'un projet en phase active de Recherche & Développement. L'intégrité des modules et la documentation technique sont sujettes à des refontes structurelles sans préavis.
+> **CLASSIFICATION : WORK IN PROGRESS**
+> Ce dépôt constitue l'espace de travail principal d'un projet de recherche et développement. Les modèles mathématiques, l'architecture matricielle et les algorithmes de traitement du signal sont soumis à des itérations constantes. L'intégrité fonctionnelle des modules n'est pas garantie à ce stade.
 
-## VUE D'ENSEMBLE
+## I. SYNOPSIS DU LABORATOIRE
 
-**PYTHON_CYBER** n'est pas qu'un simple script applicatif. C'est un environnement de simulation et d'analyse conçu pour faire le pont entre la théorie fondamentale de la physique des télécommunications et l'ingénierie moderne de la cybersécurité.
+**PYTHON_CYBER** est une infrastructure logicielle expérimentale dédiée à l'analyse, la modélisation et l'exploitation des transmissions électromagnétiques. Développé dans le cadre de la directive **RES403_RT**, ce projet aborde la physique des télécommunications sous un prisme offensif et défensif (Couche 1 / Physical Layer).
 
-L'objectif de ce projet est de modéliser, d'intercepter et de sécuriser des signaux à la couche physique, en explorant les vulnérabilités inhérentes aux transmissions hertziennes et filaires.
+L'objectif est d'étudier les ondes porteuses, d'isoler les anomalies spectrales et d'appliquer des protocoles cryptographiques directement sur les signaux bruts pour éprouver la résilience des canaux de communication.
 
-## ARCHITECTURE DU PROJET [W.I.P]
+## II. VECTEURS DE RECHERCHE [W.I.P]
 
-L'implémentation actuelle se concentre sur trois noyaux de traitement :
+L'architecture algorithmique est actuellement fragmentée en trois unités de calcul :
 
-1. **Traitement et Analyse Spectrale :** Modélisation mathématique des signaux, transformées de Fourier (FFT), et étude des modulations (AM, FM, QAM).
-2. **Simulation d'Attaques sur Couche Physique :** Bruitage dirigé, brouillage de signaux (jamming) et interception passive.
-3. **Mécanismes de Résilience :** Élaboration de filtres avancés et protocoles de chiffrement appliqués directement aux flux de données bruts.
+* **UNITÉ ALPHA : Traitement Numérique du Signal (DSP)**
+    * Isolation des spectres fréquentiels via Transformées de Fourier Rapides (FFT).
+    * Démodulation mathématique et extraction de signaux noyés dans le bruit thermique (AWGN).
+* **UNITÉ BETA : Vulnérabilités & Interception RF**
+    * Simulation de brouillage dirigé (Jamming) et d'interférences de canal.
+    * Interception passive et modélisation d'attaques de type *Man-in-the-Middle* sur la couche physique.
+* **UNITÉ GAMMA : Cryptographie & Obfuscation**
+    * Implémentation de protocoles de chiffrement asymétrique sur les vecteurs d'onde.
+    * Génération de bruit pseudo-aléatoire pour dissimulation de spectres.
 
 ---
 
 <div align="center">
-  <img src="https://media.giphy.com/media/l41lPUwE0A4E2Hns4/giphy.gif" width="600" alt="Data Nodes Processing Animation" style="border-radius: 5px;"/>
+  <img src="https://media.giphy.com/media/VbKWeXEqZAX8UwwyI1/giphy.gif" width="750" alt="Radar Processing" style="border-radius: 2px; filter: grayscale(100%) invert(10%);"/>
   <br><br>
-  <i>Phase d'intégration algorithmique en cours. Les résultats des simulations seront prochainement publiés.</i>
+  <i>[ Terminal tty1 ] — Compilation des matrices d'ondes et étalonnage des filtres en cours.</i>
 </div>
 
 ---
 
-## DÉPLOIEMENT & ENVIRONNEMENT
+## III. PROTOCOLE DE DÉPLOIEMENT
 
-L'environnement d'exécution nécessite une isolation rigoureuse pour garantir la précision des calculs scientifiques. 
-
-Les instructions d'amorçage seront documentées ici une fois la release `v0.1.0-alpha` validée.
+L'environnement de simulation requiert une isolation stricte pour garantir la précision des calculs en virgule flottante. Le protocole d'initialisation complet sera déverrouillé lors du passage en version `v0.1-stable`.
 
 ```bash
-# Séquence d'initialisation prévue (Non fonctionnelle dans la version actuelle)
-git clone [https://github.com/UTILISATEUR/python_cyber.git](https://github.com/UTILISATEUR/python_cyber.git)
-cd python_cyber
-python -m venv env_telecom
-source env_telecom/bin/activate
-pip install -r requirements.txt
-python core/main.py --mode simulation
+# [!] Séquence d'amorçage de l'environnement virtuel
+$git clone [https://github.com/UTILISATEUR/python_cyber.git$](https://github.com/UTILISATEUR/python_cyber.git$) cd python_cyber
+$python3 -m venv .lab_env$ source .lab_env/bin/activate
+
+# Installation des modules scientifiques
+$ pip install -r config/requirements.txt
+
+# Lancement du moteur de traitement (Simulation Mode)
+$ python core/analyzer.py --verbose --target=rf_spectrum
