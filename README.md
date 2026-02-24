@@ -54,4 +54,4 @@ Les instructions d'installation arriveront avec la version stable.
 ## IV. DIRECTIVE
 
 **Projet :** RES403_RT  
-**Opérateur :** [Ton Nom / Identifiant]
+**Développeurs :** LALLEMENT Arthur, PEDAT Evan
